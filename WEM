@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://universityofedinburgh.executestrategy.net/desktop/vendors/css/cascade-dependencies.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://universityofedinburgh.executestrategy.net/style/universityofedinburgh.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandRegular';
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-regular-webfont.eot');
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-regular-webfont.woff') format('woff'), url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-regular-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'QuicksandBold';
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-bold-webfont.eot');
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-bold-webfont.woff') format('woff'), url('https://resources.executestrategy.net/cascade/resources/fonts/quicksand-bold-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'PTSansRegular';
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-regular-webfont.eot');
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-regular-webfont.woff') format('woff'), url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-regular-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'PTSansBold';
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-bold-webfont.eot');
+            src: url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-bold-webfont.woff') format('woff'), url('https://resources.executestrategy.net/cascade/resources/fonts/ptsans-bold-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body style="min-width:100%;">
+<script src="https://universityofedinburgh.executestrategy.net/desktop/js/cascade-embedded.js"></script>
+
+<h1> Cascade Embedded Example </h1>
+
+<!-- dashboard -->
+<div data-component="display-dashboard" data-component-attributes='{"dashboard_id":2}'></div>
+
+<script>
+    initializeEmbeddedCascade({
+        //rootElement : 'body' -- Widget container jquery selector
+        instanceURL: 'https://universityofedinburgh.executestrategy.net',
+        token: '86b903cfb17be45d5cfc9c9267d16568943429b3f86e0ff302d5cd24c883f9f3'
+    });
+</script>
+</body>
+</html>
